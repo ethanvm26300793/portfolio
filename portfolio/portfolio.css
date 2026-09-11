@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  }
+body {
+  background-color: #F4F1EA;
+  line-height: 1.6;
+}
+header {
+  display:flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  flex-wrap: wrap;
+}
+header h2{
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header nav {
+  margin-left: auto;
+}
+header a{
+  text-decoration: none;
+  color: 2A5C8A;
+  padding: 12px;
+  font-family: "New Amsterdam";
+}
+#footer.contact {
+  margin-top: auto;
+}
+/* TRY BEIGE AND DARK GREY COLOR COMBO IN YOUR WEBSITE*/
+p {
+  font-family: "New Amsterdam";
+  color: #2B2B2B
+}
+.card {
+  border: 2px solid;
+  border-radius: 7px;
+  background-color: #FFFFFF;
+  margin: 10px;
+  padding: 12px;
+}
+.card a{
+  color: #2A5C8A;
+  font-family: "New Amsterdam";
+  padding: 10px;
+}
+#Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+}
+
+#card2 {
+  border: 2px solid black;
+  margin: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 900px;
+  flex: 1 1 200px;  
+  max-width: 250px;
+  align-items: center;
+}
+
+.git h3 {
+  color: white;
+}
+.git {
+  background-color: black;
+
+}
+.git a{
+ /*text-decoration: none;*/
+  font-family: "New Amsterdam";
+  color: white;
+  padding: 10px;
+}
+.insta a{
+  /*text-decoration: none;*/
+  font-family: "New Amsterdam";
+  color: white;
+  padding: 10px;
+}
+.insta h3 {
+  color: white;
+  font-family: 
+}
+.insta {
+  background-color: #ee2a7b;
+}
+.linkedin {
+  background-color: #0A66C2 ;
+}
+.linkedin a{
+  /*text-decoration: none;*/
+  font-family: "New Amsterdam";
+  color: white;
+  padding: 10px;
+}
+.linkedin h3 {
+  color: white;
+}
+@media (min-width: 768px) {
+  #Grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
