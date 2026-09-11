@@ -2,7 +2,7 @@
   box-sizing: border-box;
   }
 body {
-  background-color: #FFFDF2;
+  background-color: #F4F1EA;
   line-height: 1.6;
 }
 header {
@@ -10,7 +10,7 @@ header {
   align-items: center;
   border: 1px solid black;
   border-radius: 12px;
-  background-color: #00ABE4;
+  background-color: #FFFFFF;
   flex-wrap: wrap;
 }
 header h2{
@@ -22,7 +22,7 @@ header nav {
 }
 header a{
   text-decoration: none;
-  color: white;
+  color: 2A5C8A;
   padding: 12px;
   font-family: "New Amsterdam";
 }
@@ -32,16 +32,17 @@ header a{
 /* TRY BEIGE AND DARK GREY COLOR COMBO IN YOUR WEBSITE*/
 p {
   font-family: "New Amsterdam";
+  color: #2B2B2B
 }
 .card {
   border: 2px solid;
   border-radius: 7px;
-  background-color: #00ABE4;
+  background-color: #FFFFFF;
   margin: 10px;
   padding: 12px;
 }
 .card a{
-  color: black;
+  color: #2A5C8A;
   font-family: "New Amsterdam";
   padding: 10px;
 }
@@ -59,7 +60,7 @@ p {
   flex-wrap: wrap;
   gap: 16px;
   max-width: 900px;
-  flex: 1 1 200px;  /* Lets cards shrink/grow, with a base width of 200px */
+  flex: 1 1 200px;  
   max-width: 250px;
   align-items: center;
 }
