@@ -102,3 +102,8 @@ p {
 .linkedin h3 {
   color: white;
 }
+@media (min-width: 768px) {
+  #Grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
